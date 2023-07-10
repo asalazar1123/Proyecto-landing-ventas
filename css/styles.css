@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Inicio contenido navbar */
+.navbar img{
+    width: 75px;
+    filter: invert(1);
+}
+
+.navbar a{
+    color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.navbar a:hover{
+    color: gold;
+    transform: scale(0.9);
+}
+.navbar-nav a{
+ color: white;
+ font-size: 20px;
+ font-family: helvetica;
+}
+.navbar-nav a:hover{
+    color:gold;
+}
+
+/* Fin contenido navbar */
+
+/* //////////////////////////////////////////////////////////////// */
+
+/* Inicio contenido section*/
+
+#banner{
+    background-color: 	#D4AF37;
+    height: 450px;
+    width: auto;
+}
+
+.contenido-1{
+    color: white;
+    text-align:justify;
+    padding: 15px;
+}

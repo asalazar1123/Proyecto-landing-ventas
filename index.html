@@ -6,9 +6,73 @@
     <title>Don Juegos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </link>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <nav class="navbar navbar-expand-lg bg-dark d-flex">
+        <div class="container-fluid">
+          <a class="navbar-brand animate__pulse" href="#">
+            <img src="img/logo.png" alt="logo" srcset="">[ VIKINGAMES ]</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" href="#">Catalogo</a>
+              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="contenido-1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi et esse est doloremque laborum qui impedit adipisci itaque deserunt unde minima atque eligendi quod autem, quo fuga totam aperiam?</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="contenido-2">
+                        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://i.blogs.es/7a315f/steam/1366_2000.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/origin.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="img/epic.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </section>
+  
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
