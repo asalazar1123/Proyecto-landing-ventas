@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Don Juegos</title>
+    <title>VIKINGAMES</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link
@@ -11,35 +11,48 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   </link>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <body>
     
-    <nav class="navbar navbar-expand-lg bg-dark d-flex">
-        <div class="container-fluid">
-          <a class="navbar-brand animate__pulse" href="#">
-            <img src="img/logo.png" alt="logo" srcset="">[ VIKINGAMES ]</a>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo" srcset="">VIKINGAMES <i class="bi bi-joystick"></i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link" href="#">Inicio</a>
-              <a class="nav-link" href="#">Catalogo</a>
+              <a class="nav-link" href="#">Catálogo</a>
               <a class="nav-link" href="#">Blog</a>
               <a class="nav-link" href="#">Contacto</a>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <button type="submit">Iniciar Sesión <i class="bi bi-person-fill"></i></button>
             </div>
           </div>
         </div>
       </nav>
 
-      <section id="banner">
+      <section id="jumbotron">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-6 col-sm-12 order-1 order-lg-0">
                     <div class="contenido-1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum modi et esse est doloremque laborum qui impedit adipisci itaque deserunt unde minima atque eligendi quod autem, quo fuga totam aperiam?</p>
-                    </div>
+                        <span>CADA SEMANA NUEVAS OFERTAS!!</span>
+                        <p>Indicanos tu correo y selecciona tu plataforma favorita y ya estaras participando por un 30% de descuento en los proximos lanzamientos</p>
+                        
+                    <div class="bajada-icons">
+                      <a href="#"><img src="img/epiclogo.png" alt="" srcset=""></a>
+                      <a href="#"><img src="img/steamlogo.png" alt="" srcset=""></a>
+                      <a href="#"><img src="img/playstore.png" alt="" srcset=""></a>
+                   </div>
                 </div>
-                <div class="col-6">
+              </div>
+                <div class="col-lg-6 col-sm-12">
                     <div class="contenido-2">
                         <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
                             <div class="carousel-inner">
@@ -69,6 +82,119 @@
         </div>
       </section>
   
+      <section class="cards">
+       <div class="container">
+         <div class="row">
+           <d class="col-12">
+            <div class="titulo-cards">
+              <h1>" Sé el primero en obtener los nuevos lanzamientos "</h1>
+              <legend>Obten un 30% de descuento iniciando sesión y seleccionando tu plataforma favorita</legend>
+            </div>
+            <div class="tarjetas">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://www.latercera.com/resizer/FXD9OicPDUgZgj8d9uPV1FayZyM=/arc-anglerfish-arc2-prod-copesa/public/AYRGNGKUUZBGZD5KL3XE5BYDGA.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ghost of Tsushima 2</h5>
+                      <p class="card-text">Aléjate del campo de batalla para experimentar el Japón feudal como nunca antes. En esta aventura de acción de mundo abierto, recorrerás extensos llanos y un vasto territorio donde encontrarás personajes profundos y lugares históricos, y descubrirás la belleza oculta de Tsushima.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/mk1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mortal Kombat 1</h5>
+                      <p class="card-text">Descubre un nuevo universo de Mortal Kombat creado por Liu Kang, Dios del Fuego. ¡Mortal Kombat 1 abre paso a una nueva era de esta icónica saga con un nuevo sistema de kombate, modos de juego y fatalities!</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="img/spiderman.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Spiderman 2</h5>
+                      <p class="card-text">Balancéate, salta y utiliza las nuevas alas de telaraña para recorrer toda la ciudad de Nueva York de Marvel. También podrás cambiar rápidamente entre Peter Parker y Miles Morales para vivir diferentes historias y canalizar poderes nuevos y épicos, mientras que el emblemático villano Venom amenaza con destruir sus vidas, la ciudad y a todos sus seres queridos.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>          
+            </div>
+           </div>
+         </div>
+      </section>
+
+
+      <section id="extra">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="extra-1">
+              </div>
+
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="extra-2">
+                <h6>Sorteito vikingames <i class="bi bi-hearts"></i></h6>
+                <span>¿Quieres ser el ganador de una pc gamer?</span>
+                <p>¡Prepárate para sumergirte en el emocionante mundo de los juegos con nuestro sorprendente sorteo de un PC Gamer! ¿Estás listo para ganar? ¡Sigue las instrucciones a continuación y asegúrate de tener todas las cartas a tu favor!</p>
+                  <div class="boton-faq">
+                    <button type="button">Obtener mas información <i class="bi bi-info-circle-fill"></i></button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="img-footer">
+                  <img src="img/logo.png" alt="logo" srcset=""><br>
+                  <i class="bi bi-whatsapp"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-twitch"></i>
+                  <i class="bi bi-unity"></i>
+              </div>     
+            </div>
+            <div class="col-lg-4">
+              <div class="categoria-2">
+                <h5>Soporte</h5>
+                <ul>
+                  <a href=""><li>Terminos y condiciones</li></a>
+                  <a href=""><li>Terminos y condiciones</li></a>
+                  <a href=""><li>Formas de pago</li></a>
+                  <a href=""><li>Preguntas Frecuentes</li></a>
+                  <a href=""><li>Formas de despacho</li></a>
+                  <a href=""><li>Seguimiento</li></a>
+                  <a href=""><li>Contacto</li></a>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="categoria-3">
+                <span>Suscribete a nuestro Newsletter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
 

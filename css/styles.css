@@ -8,23 +8,44 @@
     width: 75px;
     filter: invert(1);
 }
-
+.navbar img:hover{
+     transform: rotate(3.142rad);
+}
 .navbar a{
     color: white;
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 .navbar a:hover{
-    color: gold;
-    transform: scale(0.9);
+    color: #640A86;
+    justify-content: center;
+    transform: skewX(-0.06turn);
 }
+
 .navbar-nav a{
  color: white;
  font-size: 20px;
  font-family: helvetica;
 }
 .navbar-nav a:hover{
-    color:gold;
+    color:#640A86;
+    transform: skewX(0); 
+    
+}
+
+.navbar-nav button{
+    background-color:#640A86;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid #640A86;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar-nav button:hover{
+    color: black;
+    background-color: white;
 }
 
 /* Fin contenido navbar */
@@ -33,14 +54,183 @@
 
 /* Inicio contenido section*/
 
-#banner{
-    background-color: 	#D4AF37;
+#jumbotron{
+    background-color:#640A86;
     height: 450px;
     width: auto;
+    border-bottom: 10px solid;
 }
 
 .contenido-1{
     color: white;
-    text-align:justify;
-    padding: 15px;
+    text-align:center;
+    padding: 50px;
+    font-family: helvetica;
 }
+
+.contenido-1 span{
+    font-size: 50px;
+    font-family: impact;
+}
+.contenido-1 p{
+    font-size: 20px;
+    font-family: helvetica;
+}
+.bajada-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.bajada-icons img{
+    
+}
+.bajada-icons img:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    transform: scale(1.2);
+}
+
+.contenido-2{
+    padding: 10px;
+    width: 710px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;    margin-top: 10px;
+}
+
+
+
+
+
+.cards{
+    background-color: #E2E2E2;
+    height: 800px;
+    text-align: center;
+}
+
+.cards h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-top: 75px;
+    color: #640A86;
+}
+
+.tarjetas {
+    margin-bottom: 100px;
+}
+.card{
+    margin-bottom: 10px;
+}
+
+
+#extra{
+    background-color: #212529;
+    height: 570px;
+}
+.extra-1{
+    background-image: url(https://www.volkgames.com/wp-content/uploads/2020/11/Como-transmitir-en-Facebook.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+    border: 20px solid #212529;
+}
+
+
+.extra-2{
+    padding: 40px;
+    text-align: center;
+}
+.extra-2 h6{
+    color: white;
+    font-size: 21px;
+}
+.extra-2 span{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 43px;
+   line-height: 90px;
+}
+.extra-2 p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.extra-2 button{
+    color: white;
+    background-color: #640A86;
+    border: 1px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+}
+.extra-2 button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+footer{
+    height: 400px;
+    background-color:#640A86;
+}
+
+footer img{
+    width: 185px;
+    filter: invert(1);
+}
+
+.img-footer{
+    padding: 90px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.img-footer i{
+    color: white;
+    font-size: 24px;
+}
+.img-footer i:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .navbar-brand img{
+        width: 40px;
+    }
+    .navbar a{
+        font-size: 20px;
+    }
+    .navbar-toggler{
+        background-color:white;
+    }
+
+
+    #jumbotron {
+        height: 530px;
+    }
+    .contenido-2 {
+      padding: 8px;
+      width: 350px;
+      margin-top: 30px;
+}
+    .contenido-1{
+     font-size: 13px;
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
