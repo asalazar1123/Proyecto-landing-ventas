@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Inicio contenido navbar */
 .navbar img{
     width: 75px;
@@ -52,7 +56,7 @@
 
 /* //////////////////////////////////////////////////////////////// */
 
-/* Inicio contenido section*/
+/* Inicio contenido section bajada header*/
 
 #jumbotron{
     background-color:#640A86;
@@ -81,9 +85,6 @@
     justify-content: center;
 }
 
-.bajada-icons img{
-    
-}
 .bajada-icons img:hover{
     filter: drop-shadow(2px 4px 6px black);
     transform: scale(1.2);
@@ -96,16 +97,19 @@
 }
 
 
+/* FIN contenido section bajada header*/
 
+/* /////////////////////////////////////////////////////////////////////*/
 
+/* inicio contenido cards */
 
-.cards{
+#contenedor-cards{
     background-color: #E2E2E2;
-    height: 800px;
+    height: 900px;
     text-align: center;
 }
 
-.cards h1{
+#contenedor-cards h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
     margin-top: 75px;
@@ -117,19 +121,27 @@
 }
 .card{
     margin-bottom: 10px;
+    border:3px solid #640A86;
 }
 
+/* fin contenido cards */
+
+/* ////////////////////////////////////////////////////////////////// */
+
+/* inicio contenido extra */
 
 #extra{
     background-color: #212529;
     height: 570px;
+    border-bottom: 4px solid #640A86;
+    border-top: 4px solid #640A86;
 }
 .extra-1{
     background-image: url(https://www.volkgames.com/wp-content/uploads/2020/11/Como-transmitir-en-Facebook.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 570px;
+    height: 550px;
     width: 100%;
     border: 20px solid #212529;
 }
@@ -168,11 +180,57 @@
     background-color: white;
 }
 
+/* fin contenido extra */
 
+/*/ ////////////////////////////////////////////////////////////// */
+
+
+/* Inicio  contacto */
+
+#Contacto{
+    background-image: url("https://cutewallpaper.org/22/gamer-girl-computer-wallpapers/157343982.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+.texto-contacto{
+    text-align: left;
+    padding: 80px;
+    background-color: #212529;
+    opacity: 0.9;
+    margin-top: 110px;
+    color: white;
+}
+
+.texto-contacto span{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto-contacto button{
+    background-color:#640A86;
+    padding: 8px;
+    border-radius: 5px;
+    border: 3px solid #640A86;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+/* Fin contacto*/
+/*/ ////////////////////////////////////////////////////////////// */
+
+/* INICIO FOOTER */
 
 footer{
     height: 400px;
     background-color:#640A86;
+    border-top: 5px solid #212529;
 }
 
 footer img{
@@ -241,6 +299,13 @@ footer img{
 ::placeholder{
     color: white;
 }
+
+/* FIN FOOTER */
+
+/* //////////////////////////////////////////////////////////////////// */
+
+/* INICIO MEDIA QUERYS */
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
@@ -253,8 +318,8 @@ footer img{
     .navbar-toggler{
         background-color:white;
     }
-
-
+/*  FIN NAV TELEFONO */
+/*  INICIO CONTENIDO TELEFONO */
     #jumbotron {
         height: 530px;
     }
@@ -264,7 +329,61 @@ footer img{
       margin-top: 30px;
 }
     .contenido-1{
-     font-size: 13px;
+     padding: 0px;
+    }
+    .contenido-1 span{
+     font-size: 30px;
+    }
+    .contenido-1 p{
+        font-size: 13px
+    }
+
+    #contenedor-cards{
+        height: auto;
+    }
+    #contenedor-cards h1{
+        font-size: 25px;
+    }
+    #contenedor-cards legend{
+        font-size: small;
+    }
+
+    .extra-1{
+        height: 200px;
+    }
+    .extra-2{
+        padding: 0px;
+    }
+    .extra-2 h6{
+        font-size: 15px;
+    }
+    .extra-2 span{
+        font-size: 28px;
+        line-height:40px;
+    }
+    .extra-2 p{
+        font-size: 15px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .categoria-2{
+        text-align: center;
+        padding: 0px;
+    }
+    .categoria-2 ul{
+        padding-left: 0;
+    }
+    
+    .texto-contacto{
+        text-align: center;
+        padding: 12px;
+        margin-top: 30px;
+    }
+    .texto-contacto span{
+        font-size: 30px;
     }
 }
 

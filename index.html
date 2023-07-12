@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VIKINGAMES</title>
+    <link rel="icon" type="image/jpg" href="img/favicon.ico"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link
@@ -13,7 +14,8 @@
   </link>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <body>
-    
+
+   <!--  NAVBAR  --> 
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -23,10 +25,10 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#">Inicio</a>
-              <a class="nav-link" href="#">Catálogo</a>
-              <a class="nav-link" href="#">Blog</a>
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#jumbotron">Inicio</a>
+              <a class="nav-link" href="#contenedor-cards">Catálogo</a>
+              <a class="nav-link" href="#extra">Sorteos</a>
+              <a class="nav-link" href="#Contacto">Contacto</a>
             </div>
           </div>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
@@ -36,6 +38,8 @@
           </div>
         </div>
       </nav>
+
+<!--INCIO SECTIONS-->
 
       <section id="jumbotron">
         <div class="container">
@@ -48,7 +52,7 @@
                     <div class="bajada-icons">
                       <a href="#"><img src="img/epiclogo.png" alt="" srcset=""></a>
                       <a href="#"><img src="img/steamlogo.png" alt="" srcset=""></a>
-                      <a href="#"><img src="img/playstore.png" alt="" srcset=""></a>
+                      <a href="#"><img src="img/ea-.png" alt="" srcset=""></a>
                    </div>
                 </div>
               </div>
@@ -81,11 +85,15 @@
             </div>
         </div>
       </section>
+
+  <!--FIN SECTIONS JUMBOTRON --> 
+
+    <!--INICIO SECTION CARDS -->
   
-      <section class="cards">
+      <section id="contenedor-cards">
        <div class="container">
          <div class="row">
-           <d class="col-12">
+           <div class="col-12">
             <div class="titulo-cards">
               <h1>" Sé el primero en obtener los nuevos lanzamientos "</h1>
               <legend>Obten un 30% de descuento iniciando sesión y seleccionando tu plataforma favorita</legend>
@@ -135,6 +143,9 @@
          </div>
       </section>
 
+      <!--FIN SECTION CARDS -->
+
+      <!--INICIO SECTION EXTRA (SORTEO) -->
 
       <section id="extra">
         <div class="container-fluid">
@@ -157,8 +168,52 @@
           </div>
         </div>
       </section>
+<!--FIN SECTION EXTRA (SORTEO) -->
 
+<!-- INICIO SECTION CONTACTO -->
+      <section id="Contacto">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6  col-sm-12">
+              <div class="texto-contacto">
+                <span>NO DUDES EN CONTACTARNOS</span><br>
+                  <i class="bi bi-whatsapp"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-twitch"></i>
+                  <i class="bi bi-unity"></i>
+              </div>             
+            </div>
+            <div class="col-lg-6  col-sm-12">
+              <form>
+                <div class="texto-contacto">
+                  <div class="form-group">
+                    <label for="Nombre">Nombre Completo:</label>
+                    <input type="nombre" class="form-control" id="nombre">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Como podemos ayudarte:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Estoy de acuerdo con las&nbsp;<strong>Politicas de Terminos y Condiciones</strong></label>
+                  </div>
+                  <button type="submit" class="btn btn-default">Enviar</button>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </form>
+      </section>
+<!-- FIN SECTION CONTACTO -->
 
+<!-- FOOTER  -->
       <footer>
         <div class="container">
           <div class="row">
@@ -198,9 +253,15 @@
         </div>
       </footer>
 
-
+<!-- FIN FOOTER  -->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<!--
+Authors:
+- Alexander Salazar
+
+-->
