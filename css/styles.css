@@ -161,6 +161,7 @@
     border: 1px solid transparent;
     padding: 15px;
     font-size: 15px;
+    border-radius: 5px;
 }
 .extra-2 button:hover{
     color: black;
@@ -194,6 +195,52 @@ footer img{
     cursor: pointer;
 }
 
+.categoria-2{
+    color: white;
+    padding: 80px;
+}
+.categoria-2 h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.categoria-2 a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.categoria-2 a:hover{
+    text-decoration:underline;
+}
+
+
+.categoria-3{
+    padding: 70px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+}
+.categoria-3 input{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    border-radius: 5px;
+}
+.categoria-3 a button{
+    background-color:#212529;
+    color: white;
+    border:2px solid transparent;
+    padding: 5px;
+    margin-top: 20px;
+    width: 50%;
+}
+::placeholder{
+    color: white;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
