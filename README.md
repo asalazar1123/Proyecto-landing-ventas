@@ -1,8 +1,8 @@
 # Proyecto Landing de Venta
 
-_Este proyecto es una landing de venta orientado a la venta de videojuegos, la cual consta de un navbar desplegable que se adapta a todos los dispositivos mobiles ademas de un correcto sistema de grillas que ofrece la misma tecnologia de bootstrap.
+_Este proyecto es una landing de venta orientado a la venta de videojuegos pre anticipados, la cual se adapta a todos los dispositivos mobiles para hacer mas accesible la navegación dentro del sitio.
 
-Sections bien definidos y un codigo ordenado y facil de editar._
+Los Sections estan bien definidos por lo que poseen un codigo ordenado y facil de editar._
 
 ## Construido con 🛠️
 
